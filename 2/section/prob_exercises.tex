@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\usepackage{empheq}
+\usepackage{graphicx}
+
+
+\title{Section 2 AI Solutions}
+\author{Connor Leggett}
+\date{July 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+
+\begin{itemize}
+    \item \textbf{Question}: Three people walk into an elevator. Each of these people chooses a floor randomly and independently between 2 and 10 (inclusive) and presses the button for that floor. What is the probability that the buttons for 3 consecutive floors are pressed?
+    \item \textbf{Answer}: 
+    \begin{itemize}
+        \item There are seven different combinations of consecutive floors: (2, 3, 4), (3, 4, 5), (4, 5, 6), (5, 6, 7), (6, 7, 8), (7, 8, 9), (8, 9, 10).
+        \item We don't care about the order in which they were pressed though, (3, 4, 5) is equivalent to (4, 5, 3) for example, and there are 6 different ways each group of three can be re-arranged, so there are actually $7 * 6 = 42$ successful worlds.
+        \item There are $9$ possible numbers that each of the three people could choose, meaning there are $9^3 = 729$ possible worlds.
+        \item We find the probability by dividing successful worlds by total worlds:
+        $$p = \frac{success}{total} = \frac{42}{729} = \boxed{\frac{14}{243} \approx .0576}$$
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\section{}
+
+\begin{itemize}
+    \item \textbf{Question}: Men who smoke are 23 times more likely to develop lung cancer than men who don’t smoke. The probability of a man smoking is .216. What is the probability that a man smokes given, that he has lung cancer?
+
+    \item \textbf{Answer}: 
+    \begin{itemize}
+        \item Let $S$ be the event of a man smoking
+        \item Let $L$ be the event of a man having lung cancer.
+        \item We are told that:
+        \begin{itemize}
+            \item $P(L | S) = 23P(L | S^C)$
+            \item $P(S) = .216$
+        \end{itemize}
+        \item By Bayes' Rule, we know that:
+        $$P(S | L) = \frac{P(L|S)P(S)}{P(L)}$$
+        Substituting our values:
+        $$P(S | L) = \frac{P(L|S).216}{P(L)}$$
+        Using the law of total probability:
+        $$P(S | L) = \frac{P(L|S).216}{P(L|S)P(S) + P(L|S^C)P(S^C)}$$
+        Using the fact that we know $P(L | S) = 23P(L | S^C)$:
+        $$P(S | L) = \frac{23P(L | S^C).216}{23P(L | S^C)P(S) + P(L|S^C)P(S^C)}$$
+        Removing the common term of $P(L|S^C)$:
+        $$P(S | L) = \frac{23 \cdot .216}{23 \cdot P(S) + P(S^C)}$$
+        All probabilities must sum to 1:
+        $$P(S | L) = \frac{23 \cdot .216}{23 \cdot P(S) + (1 - P(S))}$$
+        Substituting the probability of smoking again:
+        $$P(S | L) = \frac{23 \cdot .216}{23 \cdot .216 + (1 - .216)}$$
+        Calculating:
+        $$\boxed{P(S|L) \approx .864 }$$
+    \end{itemize}
+\end{itemize}
+
+\section{}
+
+\begin{itemize}
+    \item \textbf{Question}: You are on a game show with three doors. There are goats behind two of the doors, and a car behind one of the doors, and your goal is to pick the car. You initially choose a door, and then the host (who knows which doors have what behind them) opens a different door to reveal a goat, and asks if you would like to switch doors. What is the probability of winning when switching?
+    \item \textbf{Answer}:
+    \begin{itemize}
+        \item Let's decide ahead of time that we'll use the switching strategy.
+        \item Let $W$ be the event that you win the game by switching doors.
+        \item Let $C$ be the event that your initial guess was a car. For readability, we'll also let $G$ be the event that your initial guess was a goat.
+        \item By the law of total probability, we can split this into cases:
+        $$P(W) = P(W|C)P(C) + P(W|G)P(G)$$
+        \item Now, let's look at some of these individual values:
+        \begin{itemize}
+            \item $P(W|C)$: The probability of winning when your initial guess was a car is 0 because we've decided we're switching from our original guess.
+            \item $P(C)$: There are two goats and one car, so the probability that your initial guess was a car is $\frac{1}{3}$.
+            \item $P(W|G)$: If your original guess was a goat and the host reveals another goat, then when you switch you must be switching to the car. Therefore, this probability is 1.
+            \item $P(G)$: There are two goats and one car, so the probability that your initial guess was a goad is $\frac{2}{3}$.
+        \end{itemize}
+        \item Now, putting these values together:
+        $$P(W) = 0 \cdot \frac{1}{3} + 1 \cdot \frac{2}{3} = \boxed{\frac{2}{3}}$$
+    \end{itemize}
+\end{itemize}
+
+\end{document}
