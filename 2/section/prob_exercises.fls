@@ -1,9 +1,9 @@
-PWD /Users/cleggett/Documents/cs50/ai/section-ai/2/distro
+PWD /Users/cleggett/Documents/cs50/ai/section-ai/2/section
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.tex
-OUTPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.log
+INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.tex
+OUTPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -61,9 +61,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
-INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.aux
-INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.aux
-OUTPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.aux
+INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.aux
+INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.aux
+OUTPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -111,9 +111,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.pdf
+OUTPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.pdf
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.aux
+INPUT /Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.aux
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

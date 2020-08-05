@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1594121660 "/Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.tex" "/Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.pdf" "prob_exercises" 1594121660
-  "/Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.aux" 1594121660 266 ae9b2c90d518dcdf9bc3b0a04c128d02 ""
-  "/Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.tex" 1594121659 4628 ab4786bbfdc18bc27f595362be9ee183 ""
+["pdflatex"] 1594220087 "/Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.tex" "/Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.pdf" "prob_exercises" 1594220088
+  "/Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.aux" 1594220088 266 ae9b2c90d518dcdf9bc3b0a04c128d02 ""
+  "/Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.tex" 1594122836 4628 ab4786bbfdc18bc27f595362be9ee183 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -73,11 +73,11 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "prob_exercises.aux" 1594121660 266 ae9b2c90d518dcdf9bc3b0a04c128d02 "pdflatex"
-  "prob_exercises.tex" 1594121659 4628 ab4786bbfdc18bc27f595362be9ee183 ""
+  "prob_exercises.aux" 1594220088 266 ae9b2c90d518dcdf9bc3b0a04c128d02 "pdflatex"
+  "prob_exercises.tex" 1594122836 4628 ab4786bbfdc18bc27f595362be9ee183 ""
   (generated)
-  "/Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.log"
-  "prob_exercises.aux"
   "prob_exercises.pdf"
+  "prob_exercises.aux"
+  "/Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.pdf"
+  "/Users/cleggett/Documents/cs50/ai/section-ai/2/section/prob_exercises.log"
   "prob_exercises.log"
-  "/Users/cleggett/Documents/cs50/ai/section-ai/2/distro/prob_exercises.pdf"
